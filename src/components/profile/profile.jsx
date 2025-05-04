@@ -1,32 +1,28 @@
-function Profile({ name, tag, location, image, stats }) {
-
-    return (
-    <div>
-  <div>
-    <img
-      src={image}
-      alt="User avatar"
-    />
-    <p>{name}</p>
-    <p>@{tag}</p>
-    <p>{location}</p>
+import styles from './profile.module.css';
+function Profile({ username, tag, location, image, stats }) {
+  return (
+    <div className={styles.profile}>
+  <div className={styles.description}>
+  <img src={image} alt="User avatar" className={styles.avatar} />
+    <p className={styles.username}>{username}</p>
+    <p className={styles.tag}>@{tag}</p>
+    <p className={styles.location}>{location}</p>
   </div>
-
-  <ul>
-    <li>
-      <span>Followers</span>
+  <ul className={styles.stats}>
+    <li className={styles.statsBorder}>
+      <span >Followers </span>
       <span>{stats.followers}</span>
     </li>
-    <li>
-      <span>Views</span>
+    <li className={styles.statsBorder}>
+      <span >Views </span>
       <span>{stats.views}</span>
     </li>
-    <li>
-      <span>Likes</span>
+    <li className={styles.statsBorder}>
+      <span>Likes </span>
       <span>{stats.likes}</span>
     </li>
   </ul>
 </div>
-    );
-  }
-  export default Profile;
+  );
+}
+export default Profile;

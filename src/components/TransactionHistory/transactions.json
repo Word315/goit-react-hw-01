@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1e0700a2-5183-4291-85cc-2065a036a683",
+    "type": "Invoice",
+    "amount": "964.82",
+    "currency": "LRD"
+  },
+  {
+    "id": "a30f821b-4d25-4ff0-abdd-e340b3f0dd2b",
+    "type": "Payment",
+    "amount": "686.50",
+    "currency": "WST"
+  },
+  {
+    "id": "b16f6b9f-2b9a-4784-810a-b735b312c070",
+    "type": "Invoice",
+    "amount": "828.62",
+    "currency": "UGX"
+  },
+  {
+    "id": "ea8ed3dc-8f12-4e43-b6a0-f6780dcbf78d",
+    "type": "Withdrawal",
+    "amount": "527.80",
+    "currency": "ALL"
+  },
+  {
+    "id": "b0a4fa56-5d04-486c-9318-bfa188d921f4",
+    "type": "Withdrawal",
+    "amount": "371.43",
+    "currency": "MUR"
+  },
+  {
+    "id": "2df1427b-9cb4-41e6-b27f-40f92b9893ae",
+    "type": "Payment",
+    "amount": "862.44",
+    "currency": "AUD"
+  },
+  {
+    "id": "f58a7f34-7cf1-4d8a-8d70-58df6e211eec",
+    "type": "Withdrawal",
+    "amount": "907.00",
+    "currency": "GEL"
+  },
+  {
+    "id": "7d237f20-c859-40d1-9c5c-7b8f7c55954b",
+    "type": "Withdrawal",
+    "amount": "352.52",
+    "currency": "UGX"
+  }
+]
