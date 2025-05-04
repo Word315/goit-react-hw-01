@@ -17,7 +17,7 @@ function Profile({ username, tag, location, image, stats }) {
       <span >Views </span>
       <span>{stats.views}</span>
     </li>
-    <li className={styles.statsBorder}>
+    <li >
       <span>Likes </span>
       <span>{stats.likes}</span>
     </li>
